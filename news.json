@@ -1,0 +1,69 @@
+[
+    {
+      "id": "bbc-news",
+      "name": "BBC News",
+      "author": "Jane Smith",
+      "title": "Another Important Event",
+      "description": "Details about another important event happening around the world.",
+      "url": "https://www.bbc.com/news/world/2024/important-event",
+      "urlToImage": "https://cdn.bbc.com/news/images/important-event.jpg",
+      "publishedAt": "2024-09-08T10:20:00Z",
+      "content": "This is the full article content for the important event happening globally."
+    },
+    {
+      "id": "cnn-news",
+      "name": "CNN News",
+      "author": "John Doe",
+      "title": "Major Event in 2024",
+      "description": "Coverage of a major global event.",
+      "url": "https://www.cnn.com/news/2024/major-event",
+      "urlToImage": "https://cdn.cnn.com/news/images/major-event.jpg",
+      "publishedAt": "2024-09-07T09:15:00Z",
+      "content": "This article contains detailed content about a major global event."
+    },
+    {
+      "id": "reuters-news",
+      "name": "Reuters",
+      "author": "Alice Johnson",
+      "title": "Economic Changes",
+      "description": "Details about economic shifts around the world.",
+      "url": "https://www.reuters.com/news/economy/2024/changes",
+      "urlToImage": "https://cdn.reuters.com/news/images/economy.jpg",
+      "publishedAt": "2024-09-06T08:45:00Z",
+      "content": "In-depth content about the latest economic changes."
+    },
+    {
+      "id": "the-guardian-news",
+      "name": "The Guardian",
+      "author": "Tom Brown",
+      "title": "Political Developments",
+      "description": "Insights into major political developments.",
+      "url": "https://www.theguardian.com/news/2024/political-developments",
+      "urlToImage": "https://cdn.theguardian.com/news/images/political.jpg",
+      "publishedAt": "2024-09-05T11:00:00Z",
+      "content": "Full article on recent political developments."
+    },
+    {
+      "id": "aljazeera-news",
+      "name": "Al Jazeera",
+      "author": "Emily Clark",
+      "title": "Crisis in 2024",
+      "description": "Reporting on the latest crisis situation.",
+      "url": "https://www.aljazeera.com/news/2024/crisis",
+      "urlToImage": "https://cdn.aljazeera.com/news/images/crisis.jpg",
+      "publishedAt": "2024-09-04T07:30:00Z",
+      "content": "Full details on the crisis and its global impact."
+    },
+    {
+      "id": "fox-news",
+      "name": "Fox News",
+      "author": "Daniel Wright",
+      "title": "Global Innovation",
+      "description": "Coverage on new global innovations.",
+      "url": "https://www.fox.com/news/global-innovation",
+      "urlToImage": "https://cdn.fox.com/news/images/innovation.jpg",
+      "publishedAt": "2024-09-03T12:00:00Z",
+      "content": "Article discussing the latest innovations globally."
+    }
+  ]
+  
