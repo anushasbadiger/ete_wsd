@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>News Portal</h1>
+        <h3>Know what's happening in the world around you and have knowledge about the current affairs.</h3>
+    </header>
+
+    <section id="news-container">
+        <h2>Latest News</h2>
+        <div id="news-list"></div>
+        <div id="pagination"></div>
+            <!-- sorting -->
+            <label for="sortOptions">Sort By:</label>
+            <select id="sortOptions">
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="publishedAt">Date Published</option>
+            </select>
+        
+            <!-- Filtering -->
+            <label for="filterInput">Filter By (Title/Author):</label>
+            <input type="text" id="filterInput" placeholder="Search news...">
+        
+            <div id="news-list"></div>
+            <div id="pagination"></div>
+        
+        
+        
+    </section>
+        <!-- signup form -->
+        <section id="signup-form">
+            <h2>Sign Up to See News</h2>
+        
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+        
+                <button type="submit">Sign Up</button>
+                <div id="errorMessages"></div> 
+            </form>
+        </section>
+        
+        <div id="form-message"></div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
